@@ -59,3 +59,33 @@ html {
     color: var(--color-secondary);
     background-color: var(--color-neutral);
 }
+
+.center {
+    text-align: center;
+}
+
+.card-group {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.25rem;
+    margin-top: 1.5rem;
+}
+
+.mini-card {
+    background: var(--color-neutral-variant);
+    border-radius: var(--radius-md);
+    padding: 1.25rem;
+    box-shadow: var(--shadow-md);
+}
+
+.badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.badges a img {
+    height: 36px;
+}
